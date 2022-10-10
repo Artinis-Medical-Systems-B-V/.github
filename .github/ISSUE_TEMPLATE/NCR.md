@@ -7,26 +7,15 @@ assignees: ''
 
 ---
 
+## 1. Initiation nonconformity
+
 **Source**
 
-*Supplier nonconformity*
-
-* [ ] Incoming inspection / receival
-* [ ] Manufacturing/manufacturing tests
-* [ ] Verification/validation testing (at design and development)
-* [ ] Delivery/final inspection  
-* [ ] Other: …
-
-  Supplier name:
-
-  Order number: ORD - 
+* [ ] Returned goods (RMA) ([ ] warranty / [ ] non-warranty)
+* [ ] Integration/unit testing 
+* [ ] Internal verification/validation testing 
+* [ ] Internal testing after DMR release
+* [ ] Other: *please open an NCR via FRM 830-001*
 
 
-*Internal nonconformity*
-
-* [ ] Manufacturing / manufacturing tests
-* [ ] Delivery/final inspection
-* [ ] Verification/validation testing (at design and development)
-* [ ] Other: …
-
-
+## 2. Appointment
