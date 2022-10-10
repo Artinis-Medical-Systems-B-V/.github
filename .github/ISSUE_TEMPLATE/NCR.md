@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: Nonconformity report / design change form
 about: Nonconformity report / design change form
 title: ''
 labels: ''
