@@ -23,6 +23,17 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
+**Acceptance Criteria**
+Write a Scenrio in Given-When-Then form, for example:
+
+```
+Scenario: Sending a message through the valid email address
+
+Given	The email address is valid
+When	The email address is authenticated
+Then	The message is sent to the email address
+```
+
 **Version**
  - OS: (if relevant)
  - App: (if applicable)
