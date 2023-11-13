@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: '[feature] '
 labels: 'issue::enhancement'
 assignees: ''
 
@@ -16,16 +16,8 @@ A clear and concise description of what you want to happen.
 **Describe alternatives you've considered**
 A clear and concise description of any alternative solutions or features you've considered.
 
-**Acceptance Criteria**
-Write a Scenrio in Given-When-Then form, for example:
-
-```
-Scenario: Sending a message through the valid email address
-
-Given	The email address is valid
-When	The email address is authenticated
-Then	The message is sent to the email address
-```
+**Link to DCF**
+Link to the respecive DCF (applicable only for medical)
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
