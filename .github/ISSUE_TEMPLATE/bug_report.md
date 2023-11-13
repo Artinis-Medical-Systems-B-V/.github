@@ -1,16 +1,18 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
+title: '[Bug]'
 labels: 'issue::bug'
 assignees: ''
 
 ---
 
 **Describe the bug**
+
 A clear and concise description of what the bug is.
 
 **To Reproduce**
+
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
@@ -18,26 +20,26 @@ Steps to reproduce the behavior:
 4. See error
 
 **Expected behavior**
+
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**How important is this issue?**
 
-**Acceptance Criteria**
-Write a Scenrio in Given-When-Then form, for example:
+low, normal or high
 
-```
-Scenario: Sending a message through the valid email address
+**Is a fix for this issue urgent?**
 
-Given	The email address is valid
-When	The email address is authenticated
-Then	The message is sent to the email address
-```
+yes or no
 
 **Version**
- - OS: (if relevant)
- - App: (if applicable)
- - FW: (if applicable)
+
+ - SW: 
+ - FW: 
+
+**Does the issue occur in a customer release?**
+
+yes or no
 
 **Additional context**
+
 Add any other context about the problem here.
