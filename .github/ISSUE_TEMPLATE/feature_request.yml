@@ -1,0 +1,48 @@
+name: Feature request
+description: Suggest an idea for this project
+title: '[Feature] '
+labels: ['issue::enhancement']
+type: Feature
+assignees: []
+body:
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Describe the problem
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution-description
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Why is your proposed solution better than existing alternatives or workarounds?
+      description: Explain why your approach is better.
+    validations:
+      required: false
+
+  - type: input
+    id: dcf-link
+    attributes:
+      label: DCF Link (if applicable, 3-digit number)
+      description: Link to the respective Design Change Form (applicable only for medical)
+      placeholder: 'Enter a 3-digit number'
+    validations:
+      required: false
+      pattern: '^[0-9]{3}$'
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here. If you have mockups or sketches, include them here.
+    validations:
+      required: false
