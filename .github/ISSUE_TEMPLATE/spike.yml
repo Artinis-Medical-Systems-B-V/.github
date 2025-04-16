@@ -1,7 +1,7 @@
 name: Spike
 description: Use this issue type for time-boxed investigations, experiments, or research tasks.
 title: '[Spike] '
-labels: ['spike']
+labels: ['issue::task']
 type: Spike
 assignees: []
 body:
