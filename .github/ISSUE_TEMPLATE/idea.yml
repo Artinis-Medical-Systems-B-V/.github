@@ -1,0 +1,37 @@
+name: Idea
+description: Use this issue type for early-stage feature ideas and brainstorming. This is for concepts *before* a formal Design Change Form (DCF).
+title: '[Idea] '
+type: Idea
+assignees: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this idea solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Briefly describe your proposed solution.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Potential Benefits
+      description: What are the potential benefits of this idea?
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Add any other relevant information or considerations.
+    validations:
+      required: false
