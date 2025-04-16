@@ -43,7 +43,7 @@ body:
       label: Findings and Results
       description: Document your findings and results from the spike. What did you learn?
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: next-steps
@@ -51,7 +51,7 @@ body:
       label: Next Steps
       description: Based on your findings, what are the recommended next steps? (e.g., implement the solution, further research, abandon the approach).
     validations:
-      required: true
+      required: false
 
   - type: input
     id: dcf-reference
