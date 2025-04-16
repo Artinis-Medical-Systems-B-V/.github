@@ -84,13 +84,14 @@ body:
     validations:
       required: false
 
+  # Corrected the options below by adding quotes
   - type: dropdown
     id: customer-release
     attributes:
       label: Does the issue occur in a customer release?
       options:
-        - yes
-        - no
+        - "yes"
+        - "no"
     validations:
       required: true
 
