@@ -1,0 +1,56 @@
+name: Discussion
+description: Use this issue type to discuss designs, architectural changes, or technical proposals.
+title: '[Discussion] '
+labels: ['discussion']
+type: Discussion
+assignees: []
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: Background and Context
+      description: Provide background information and context for the discussion. Reference any relevant DCFs or prior discussions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution or Change
+      description: Clearly describe the proposed solution, design, or change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions or approaches that were considered and why this proposal was chosen.
+    validations:
+      required: false
+
+  - type: textarea
+    id: open-questions
+    attributes:
+      label: Open Questions and Discussion Points
+      description: List any open questions or specific points you would like to discuss with the team.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Potential Impact
+      description: Describe the potential impact of this change on the system, users, or other stakeholders.
+    validations:
+      required: false
+
+  - type: input
+    id: dcf-reference
+    attributes:
+      label: DCF Reference (if applicable, 3-digit number)
+      description: Link to the relevant Design Change Form if this discussion is related to a formal proposal.
+      placeholder: 'Enter a 3-digit number'
+    validations:
+      required: false
+      pattern: '^[0-9]{3}$'
