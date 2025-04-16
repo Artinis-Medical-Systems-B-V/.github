@@ -1,0 +1,64 @@
+name: Spike
+description: Use this issue type for time-boxed investigations, experiments, or research tasks.
+title: '[Spike] '
+labels: ['spike']
+type: Spike
+assignees: []
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Spike Title
+      description: Give the spike a clear and concise title.
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal and Objectives
+      description: Clearly state the goals and objectives of this spike. What are you trying to learn or discover?
+    validations:
+      required: true
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Approach and Methodology
+      description: Describe the approach you will take to conduct this spike. What steps will you follow?
+    validations:
+      required: true
+
+  - type: textarea
+    id: timebox
+    attributes:
+      label: Timebox
+      description: How much time will you dedicate to this spike? (e.g., 2 days, 1 week).
+    validations:
+      required: true
+
+  - type: textarea
+    id: findings
+    attributes:
+      label: Findings and Results
+      description: Document your findings and results from the spike. What did you learn?
+    validations:
+      required: true
+
+  - type: textarea
+    id: next-steps
+    attributes:
+      label: Next Steps
+      description: Based on your findings, what are the recommended next steps? (e.g., implement the solution, further research, abandon the approach).
+    validations:
+      required: true
+
+  - type: input
+    id: dcf-reference
+    attributes:
+      label: DCF Reference (if applicable, 3-digit number)
+      description: Link to the relevant Design Change Form if this spike is related to a formal proposal.
+      placeholder: 'Enter a 3-digit number'
+    validations:
+      required: false
+      pattern: '^[0-9]{3}$'
