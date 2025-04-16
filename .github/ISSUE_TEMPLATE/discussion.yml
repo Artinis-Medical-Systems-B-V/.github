@@ -1,7 +1,6 @@
 name: Discussion
 description: Use this issue type to discuss designs, architectural changes, or technical proposals.
 title: '[Discussion] '
-labels: ['discussion']
 type: Discussion
 assignees: []
 body:
