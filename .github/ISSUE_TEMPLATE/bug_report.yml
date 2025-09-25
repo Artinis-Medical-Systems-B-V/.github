@@ -75,14 +75,14 @@ body:
     attributes:
       label: SW Version
     validations:
-      required: false
+      required: true
 
   - type: input
     id: fw-version
     attributes:
       label: FW Version
     validations:
-      required: false
+      required: true
 
   # Corrected the options below by adding quotes
   - type: dropdown
